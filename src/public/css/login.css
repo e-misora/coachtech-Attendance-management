@@ -1,0 +1,21 @@
+.content{
+    padding: 60px;
+}
+
+.content__inner{
+    width: 500px;
+}
+
+.content-form__group{
+    margin-bottom: 40px;
+}
+
+.content-form__button--submit{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.content-form__button--link-login{
+    text-decoration: none;
+}

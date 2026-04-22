@@ -1,0 +1,65 @@
+.content{
+    padding: 60px;
+    background-color: whitesmoke;
+}
+
+.content__inner{
+    width: 700px;
+}
+
+.content__heading{
+    text-align: left;
+    padding-left: 20px;
+    border-left: 10px solid black;
+}
+
+.content__link{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+}
+
+.content__link--prev_date,
+.content__link--next_date{
+    color: gray;
+    font-weight: 600;
+    text-align: center;
+}
+
+.content__link--date{
+    display: flex;
+    font-weight: 600;
+}
+
+.table-row__header--label-date{
+    text-align: left;
+    padding-left: 50px;
+}
+
+.table-row__data--date,
+.table-row__data--start_work_time,
+.table-row__data--finish_work_time,
+.table-row__data--break_time,
+.table-row__data--total_time,
+.table-row__data--detail{
+    color: gray;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid silver;
+}
+
+.table-row__data--detail{
+    color: black;
+}
+
+.table-row__button--submit{
+    background-color: white;
+    border: none;
+}
+

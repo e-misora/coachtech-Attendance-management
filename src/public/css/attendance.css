@@ -1,0 +1,43 @@
+.content {
+    padding: 100px;
+    background-color: whitesmoke;
+}
+
+.content__heading--status{
+    color: grey;
+    background-color: lightgrey;
+    width: 30%;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.content__inner {
+    width: 300px;
+}
+
+.content__date--now{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content__time--now {
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-form__button--submit{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.content-form__button--submit-break_time{
+    color: black;
+    background-color: white;
+}
+
+.content__message{
+    font-weight: bold;
+}

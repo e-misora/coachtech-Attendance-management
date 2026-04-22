@@ -1,0 +1,88 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.header__link{
+    display: flex;
+    align-items: center;
+}
+
+.header__link--attendance,
+.header__link--attendance_list,
+.header__link--request_list,
+.header__link--logout{
+    color: white;
+    margin-left: 20px;
+}
+
+.header__link--logout{
+    background-color: black;
+    border: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-form__group--label{
+    font-weight: bold;
+}
+
+.content-form__group--input{
+    width: 100%;
+}
+
+.content-form__button{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.content-form__button--submit{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.table{
+    width: 100%;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table-row__header{
+    color: gray;
+}
+
+.table-row__header--label{
+    padding: 10px 20px;
+    border-bottom: 3px solid silver;
+}
+
+.form__error{
+    color: red;
+}
+
+
+
+
